@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96F2B06729399F8600CA3F54 /* CookingCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B06629399F8600CA3F54 /* CookingCalculatorApp.swift */; };
+		96F2B06929399F8600CA3F54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B06829399F8600CA3F54 /* ContentView.swift */; };
+		96F2B06B29399F8700CA3F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F2B06A29399F8700CA3F54 /* Assets.xcassets */; };
+		96F2B06E29399F8700CA3F54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F2B06D29399F8700CA3F54 /* Preview Assets.xcassets */; };
+		96F2B07929399F8700CA3F54 /* CookingCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B07829399F8700CA3F54 /* CookingCalculatorTests.swift */; };
+		96F2B08329399F8700CA3F54 /* CookingCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B08229399F8700CA3F54 /* CookingCalculatorUITests.swift */; };
+		96F2B08529399F8700CA3F54 /* CookingCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B08429399F8700CA3F54 /* CookingCalculatorUITestsLaunchTests.swift */; };
+		96F2B09229399F9C00CA3F54 /* Oven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B09129399F9C00CA3F54 /* Oven.swift */; };
+		96F2B0942939A84300CA3F54 /* OvenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B0932939A84300CA3F54 /* OvenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96F2B07529399F8700CA3F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F2B05B29399F8600CA3F54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F2B06229399F8600CA3F54;
+			remoteInfo = CookingCalculator;
+		};
+		96F2B07F29399F8700CA3F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F2B05B29399F8600CA3F54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F2B06229399F8600CA3F54;
+			remoteInfo = CookingCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96F2B06329399F8600CA3F54 /* CookingCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F2B06629399F8600CA3F54 /* CookingCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingCalculatorApp.swift; sourceTree = "<group>"; };
+		96F2B06829399F8600CA3F54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96F2B06A29399F8700CA3F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96F2B06D29399F8700CA3F54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96F2B06F29399F8700CA3F54 /* CookingCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CookingCalculator.entitlements; sourceTree = "<group>"; };
+		96F2B07429399F8700CA3F54 /* CookingCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookingCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F2B07829399F8700CA3F54 /* CookingCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingCalculatorTests.swift; sourceTree = "<group>"; };
+		96F2B07E29399F8700CA3F54 /* CookingCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookingCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F2B08229399F8700CA3F54 /* CookingCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingCalculatorUITests.swift; sourceTree = "<group>"; };
+		96F2B08429399F8700CA3F54 /* CookingCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96F2B09129399F9C00CA3F54 /* Oven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oven.swift; sourceTree = "<group>"; };
+		96F2B0932939A84300CA3F54 /* OvenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F2B06029399F8600CA3F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F2B07129399F8700CA3F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F2B07B29399F8700CA3F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96F2B05A29399F8600CA3F54 = {
+			isa = PBXGroup;
+			children = (
+				96F2B06529399F8600CA3F54 /* CookingCalculator */,
+				96F2B07729399F8700CA3F54 /* CookingCalculatorTests */,
+				96F2B08129399F8700CA3F54 /* CookingCalculatorUITests */,
+				96F2B06429399F8600CA3F54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96F2B06429399F8600CA3F54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F2B06329399F8600CA3F54 /* CookingCalculator.app */,
+				96F2B07429399F8700CA3F54 /* CookingCalculatorTests.xctest */,
+				96F2B07E29399F8700CA3F54 /* CookingCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F2B06529399F8600CA3F54 /* CookingCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				96F2B06629399F8600CA3F54 /* CookingCalculatorApp.swift */,
+				96F2B06829399F8600CA3F54 /* ContentView.swift */,
+				96F2B06A29399F8700CA3F54 /* Assets.xcassets */,
+				96F2B06F29399F8700CA3F54 /* CookingCalculator.entitlements */,
+				96F2B06C29399F8700CA3F54 /* Preview Content */,
+				96F2B09129399F9C00CA3F54 /* Oven.swift */,
+				96F2B0932939A84300CA3F54 /* OvenView.swift */,
+			);
+			path = CookingCalculator;
+			sourceTree = "<group>";
+		};
+		96F2B06C29399F8700CA3F54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96F2B06D29399F8700CA3F54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96F2B07729399F8700CA3F54 /* CookingCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				96F2B07829399F8700CA3F54 /* CookingCalculatorTests.swift */,
+			);
+			path = CookingCalculatorTests;
+			sourceTree = "<group>";
+		};
+		96F2B08129399F8700CA3F54 /* CookingCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96F2B08229399F8700CA3F54 /* CookingCalculatorUITests.swift */,
+				96F2B08429399F8700CA3F54 /* CookingCalculatorUITestsLaunchTests.swift */,
+			);
+			path = CookingCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F2B06229399F8600CA3F54 /* CookingCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F2B08829399F8700CA3F54 /* Build configuration list for PBXNativeTarget "CookingCalculator" */;
+			buildPhases = (
+				96F2B05F29399F8600CA3F54 /* Sources */,
+				96F2B06029399F8600CA3F54 /* Frameworks */,
+				96F2B06129399F8600CA3F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookingCalculator;
+			productName = CookingCalculator;
+			productReference = 96F2B06329399F8600CA3F54 /* CookingCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96F2B07329399F8700CA3F54 /* CookingCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F2B08B29399F8700CA3F54 /* Build configuration list for PBXNativeTarget "CookingCalculatorTests" */;
+			buildPhases = (
+				96F2B07029399F8700CA3F54 /* Sources */,
+				96F2B07129399F8700CA3F54 /* Frameworks */,
+				96F2B07229399F8700CA3F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F2B07629399F8700CA3F54 /* PBXTargetDependency */,
+			);
+			name = CookingCalculatorTests;
+			productName = CookingCalculatorTests;
+			productReference = 96F2B07429399F8700CA3F54 /* CookingCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96F2B07D29399F8700CA3F54 /* CookingCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F2B08E29399F8700CA3F54 /* Build configuration list for PBXNativeTarget "CookingCalculatorUITests" */;
+			buildPhases = (
+				96F2B07A29399F8700CA3F54 /* Sources */,
+				96F2B07B29399F8700CA3F54 /* Frameworks */,
+				96F2B07C29399F8700CA3F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F2B08029399F8700CA3F54 /* PBXTargetDependency */,
+			);
+			name = CookingCalculatorUITests;
+			productName = CookingCalculatorUITests;
+			productReference = 96F2B07E29399F8700CA3F54 /* CookingCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96F2B05B29399F8600CA3F54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					96F2B06229399F8600CA3F54 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					96F2B07329399F8700CA3F54 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 96F2B06229399F8600CA3F54;
+					};
+					96F2B07D29399F8700CA3F54 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 96F2B06229399F8600CA3F54;
+					};
+				};
+			};
+			buildConfigurationList = 96F2B05E29399F8600CA3F54 /* Build configuration list for PBXProject "CookingCalculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96F2B05A29399F8600CA3F54;
+			productRefGroup = 96F2B06429399F8600CA3F54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96F2B06229399F8600CA3F54 /* CookingCalculator */,
+				96F2B07329399F8700CA3F54 /* CookingCalculatorTests */,
+				96F2B07D29399F8700CA3F54 /* CookingCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96F2B06129399F8600CA3F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F2B06E29399F8700CA3F54 /* Preview Assets.xcassets in Resources */,
+				96F2B06B29399F8700CA3F54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F2B07229399F8700CA3F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F2B07C29399F8700CA3F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96F2B05F29399F8600CA3F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F2B0942939A84300CA3F54 /* OvenView.swift in Sources */,
+				96F2B09229399F9C00CA3F54 /* Oven.swift in Sources */,
+				96F2B06929399F8600CA3F54 /* ContentView.swift in Sources */,
+				96F2B06729399F8600CA3F54 /* CookingCalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F2B07029399F8700CA3F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F2B07929399F8700CA3F54 /* CookingCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F2B07A29399F8700CA3F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F2B08329399F8700CA3F54 /* CookingCalculatorUITests.swift in Sources */,
+				96F2B08529399F8700CA3F54 /* CookingCalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96F2B07629399F8700CA3F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F2B06229399F8600CA3F54 /* CookingCalculator */;
+			targetProxy = 96F2B07529399F8700CA3F54 /* PBXContainerItemProxy */;
+		};
+		96F2B08029399F8700CA3F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F2B06229399F8600CA3F54 /* CookingCalculator */;
+			targetProxy = 96F2B07F29399F8700CA3F54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96F2B08629399F8700CA3F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96F2B08729399F8700CA3F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		96F2B08929399F8700CA3F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CookingCalculator/CookingCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CookingCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.ame.CookingCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		96F2B08A29399F8700CA3F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CookingCalculator/CookingCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CookingCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.ame.CookingCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		96F2B08C29399F8700CA3F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.ame.CookingCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookingCalculator.app/Contents/MacOS/CookingCalculator";
+			};
+			name = Debug;
+		};
+		96F2B08D29399F8700CA3F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.ame.CookingCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookingCalculator.app/Contents/MacOS/CookingCalculator";
+			};
+			name = Release;
+		};
+		96F2B08F29399F8700CA3F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.ame.CookingCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CookingCalculator;
+			};
+			name = Debug;
+		};
+		96F2B09029399F8700CA3F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.ame.CookingCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CookingCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96F2B05E29399F8600CA3F54 /* Build configuration list for PBXProject "CookingCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F2B08629399F8700CA3F54 /* Debug */,
+				96F2B08729399F8700CA3F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F2B08829399F8700CA3F54 /* Build configuration list for PBXNativeTarget "CookingCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F2B08929399F8700CA3F54 /* Debug */,
+				96F2B08A29399F8700CA3F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F2B08B29399F8700CA3F54 /* Build configuration list for PBXNativeTarget "CookingCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F2B08C29399F8700CA3F54 /* Debug */,
+				96F2B08D29399F8700CA3F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F2B08E29399F8700CA3F54 /* Build configuration list for PBXNativeTarget "CookingCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F2B08F29399F8700CA3F54 /* Debug */,
+				96F2B09029399F8700CA3F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96F2B05B29399F8600CA3F54 /* Project object */;
+}
